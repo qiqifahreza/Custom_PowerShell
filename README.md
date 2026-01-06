@@ -1,3 +1,4 @@
+---------------------------------------------------
 # **Setup-PowerShell**
 Buat Profil Ps1 di PowerShell
 ```
@@ -11,8 +12,9 @@ Atur UTF-8 agar Support Unicode
 ```
 Select_Encoding UTF-8 -> UTF-8 with BOM && Use Cascadia, JetBrains, Fira Code Font
 ```
+---------------------------------------------------
 # **Instalasi**
-Open PwerShell
+Open PowerShell
 
 Clone Repository
 ```

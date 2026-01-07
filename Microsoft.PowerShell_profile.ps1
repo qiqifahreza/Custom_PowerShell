@@ -37,17 +37,17 @@ foreach ($line in $pesan) {
 Start-Sleep -Seconds 1
 Clear-Host
 
-if (Get-Command neofetch -ErrorAction SilentlyContinue) {
-    neofetch
+if (Get-Command fastfetch -ErrorAction SilentlyContinue) {
+    fastfetch
 } else {
     Clear-Host
-    Write-Host "[x] Neofetch belum terinstall. lanjutkan untuk instalasi? (y/n)" -ForegroundColor Yellow
+    Write-Host "[x] fastfetch belum terinstall. lanjutkan untuk instalasi? (y/n)" -ForegroundColor Yellow
     $ns = Read-Host "[?] Input"
     if ($ns -eq "y") {
-        Write-Host "Instalasi neofetch..."
-        winget install nepnep.neofetch-win
+        Write-Host "Instalasi fastfetch..."
+        winget install fastfetch
         Clear-Host
-        neofetch
+        fastfetch
     }
     else {
         Write-Host "Skipping..."

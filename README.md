@@ -1,5 +1,9 @@
 ---------------------------------------------------
 # **Setup-PowerShell**
+Atur execution policy ke RemoteSigned di User yang digunakan
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 Buat Profil Ps1 di PowerShell
 ```
 New-Item -Type File -Path $PROFILE -Force 

@@ -7,6 +7,7 @@
 #   Select_Encoding UTF-8 -> UTF-8 with BOM && Use Cascadia, JetBrains, Fira Code Font
 #       (Support Unicode di PowerShell)
 
+
 Clear-Host
 chcp 65001 | Out-Null
 [Console]::InputEncoding  = [System.Text.Encoding]::UTF8

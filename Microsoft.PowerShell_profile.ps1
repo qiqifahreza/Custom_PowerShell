@@ -7,6 +7,9 @@
 #   Select_Encoding UTF-8 -> UTF-8 with BOM && Use Cascadia, JetBrains, Fira Code Font
 #       (Support Unicode di PowerShell)
 
+if ($env:WT_SESSION) {
+    & "$HOME\Documents\WindowsPowerShell\Microsoft.btm.ps1"
+}
 
 Clear-Host
 chcp 65001 | Out-Null
